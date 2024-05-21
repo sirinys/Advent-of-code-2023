@@ -19,29 +19,37 @@ digitsText = {
     "nine": 9}
 
 def get_first_num(line):
-    i = 0
-    while i <= len(line):
-        digits = list(filter(str.isdigit, line[:i]))
-        if len(digits) > 0:
-            return digits[0]
-        for text, num in digitsText.items():
-            if (line[:i].find(text) != -1):
-                return num
-        i += 1
+    for character in line:
+        if (character.isdigit()):
+            return int(character)
+
+
+    # i = 0
+    # while i <= len(line):
+    #     digits = list(filter(str.isdigit, line[:i]))
+    #     if len(digits) > 0:
+    #         return digits[0]
+    #     for text, num in digitsText.items():
+    #         if (line[:i].find(text) != -1):
+    #             return num
+    #     i += 1
         
 def get_last_num(line):
-    i = len(line)-1
-    while i >= 0:
-        digits = list(filter(str.isdigit, line[i:]))
-        if len(digits) > 0:
-            return digits[0]
-        for text, num in digitsText.items():
-            if (line[i:].find(text) != -1):
-                return num
-        i -= 1
+    for character in line[::-1]:
+        if (character.isdigit()):
+            return int(character)
+    # i = len(line)-1
+    # while i >= 0:
+    #     digits = list(filter(str.isdigit, line[i:]))
+    #     if len(digits) > 0:
+    #         return digits[0]
+    #     for text, num in digitsText.items():
+    #         if (line[i:].find(text) != -1):
+    #             return num
+    #     i -= 1
     
 
-with open("input_dag1-1.txt", "r") as file:
+with open("day 1/input_day1_full.txt", "r") as file:
     lines = file.readlines()
     
 for line in lines:
