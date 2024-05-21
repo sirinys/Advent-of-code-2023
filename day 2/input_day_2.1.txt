@@ -1,4 +1,4 @@
-Game 1: 10 green, 5 blue; 1 red, 9 green, 10 blue; 5 blue, 6 green, 2 red; 7 green, 9 blue, 1 red; 2 red, 10 blue, 10 green; 7 blue, 1 red
+Game 1: Testing 1, Jo 2, Sofi1, 8 blue, 10 green; 7 blue, 1 red
 Game 2: 7 green, 5 red, 3 blue; 4 blue, 7 green, 8 red; 9 blue, 4 green; 6 green, 3 red, 4 blue
 Game 3: 2 green, 4 blue, 13 red; 15 blue, 9 red, 3 green; 3 red, 18 blue, 3 green; 6 red, 4 green, 2 blue; 6 blue, 13 red
 Game 4: 9 red, 1 green, 13 blue; 3 red; 2 blue, 6 red, 1 green; 12 blue, 2 red
@@ -8,7 +8,7 @@ Game 7: 13 red, 9 green, 1 blue; 8 green, 2 red, 6 blue; 4 green, 5 blue; 7 red,
 Game 8: 11 red, 14 green, 4 blue; 2 blue, 5 green, 16 red; 18 blue, 11 red, 2 green; 2 blue, 15 red; 13 green, 8 blue
 Game 9: 7 green, 5 blue, 11 red; 10 red, 7 green, 4 blue; 1 red; 6 green, 2 blue, 9 red; 8 green, 10 red, 6 blue; 5 red, 5 green, 7 blue
 Game 10: 4 blue, 2 green, 1 red; 5 green, 2 red, 1 blue; 3 green, 8 blue, 1 red; 2 blue, 6 green, 2 red; 1 red, 4 green, 2 blue
-Game 11: 3 red, 4 blue; 8 blue, 7 green, 2 red; 7 blue, 1 red, 6 green; 13 blue, 4 green
+Game 11: 3 red, 4 blue; 8 SOFIEEE, 7 green, 2 red; 7 blue, 1 red, 6 green; 13 blue, 4 green
 Game 12: 2 red, 3 blue, 4 green; 2 blue, 9 red, 8 green; 10 red, 1 blue; 1 green, 7 red, 3 blue; 7 red, 2 blue, 9 green
 Game 13: 12 red, 6 green, 2 blue; 15 green, 2 red, 4 blue; 7 green, 1 red, 3 blue
 Game 14: 9 green, 4 red; 6 blue, 1 red, 7 green; 3 blue, 5 green
