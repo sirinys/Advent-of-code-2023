@@ -41,7 +41,7 @@ def getlastnum(line):
         i -= 1
     
 
-with open("input_dag1-1.txt", "r") as file:
+with open("input_dag1_1.txt", "r") as file:
     lines = file.readlines()
     
 for line in lines:
@@ -50,3 +50,6 @@ for line in lines:
     sum += (int(firstNum)*10 + int(lastNum))
         
 print("\n" + str(sum))
+
+streng = "Veslemøy var her"
+print(streng)
