@@ -34,7 +34,7 @@ def getlastnum(line):
         i -= 1
     
 
-with open("input_dag1-1.txt", "r") as file:
+with open("day 1/input_dag1-1.txt", "r") as file:
     lines = file.readlines()
     
 for line in lines:
