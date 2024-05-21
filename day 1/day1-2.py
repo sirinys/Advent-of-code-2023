@@ -8,7 +8,7 @@ sum = 0
 
 digitsText = {
     "zero": 0,
-    "one": 1,
+    "one": 11,
     "two": 2,
     "three": 3,
     "four": 4,
