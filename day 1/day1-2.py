@@ -6,17 +6,10 @@ Created on Mon Dec  4 18:43:19 2023
 """
 sum = 0
 
-digitsText = {
-    "zero": 0,
-    "one": 1,
-    "two": 2,
-    "three": 3,
-    "four": 4,
-    "five": 5,
-    "six": 6,
-    "seven": 7,
-    "eight": 8,
-    "nine": 9}
+digits_text = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+
+
+digits_map = {digits_text[i]: i for i in range(len(digits_text))}
 
 def getfirstnum(line):
     i = 0
@@ -24,7 +17,7 @@ def getfirstnum(line):
         digits = list(filter(str.isdigit, line[:i]))
         if len(digits) > 0:
             return digits[0]
-        for text, num in digitsText.items():
+        for text, num in digits_map.items():
             if (line[:i].find(text) != -1):
                 return num
         i += 1
@@ -35,7 +28,7 @@ def getlastnum(line):
         digits = list(filter(str.isdigit, line[i:]))
         if len(digits) > 0:
             return digits[0]
-        for text, num in digitsText.items():
+        for text, num in digits_map.items():
             if (line[i:].find(text) != -1):
                 return num
         i -= 1
